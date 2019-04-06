@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "spark33.github.io/112Memez",
+  "homepage": "https://spark33.github.io/112Memez/",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

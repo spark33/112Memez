@@ -3,7 +3,7 @@ import './css/App.css';
 
 import TopNav from './TopNav.js';
 // import MemeGrid from './MemeGrid.js';
-// import Meme from './Meme.js';
+import Meme from './Meme.js';
 
 class Home extends Component {
 
@@ -42,7 +42,7 @@ class Home extends Component {
 		<div id="Home">
 			<TopNav />
       <main>
-        <img src={ this.state.image } />
+        <Meme image={ this.state.image }/>
       </main>
 		</div>);
 	}
