@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/spark33/112Memez/precache-manifest.ce8337a820387208fe796371d3c16aba.js"
+  "spark33.github.io/112Memez/precache-manifest.ce26c625ffa32d1399d1dfad44d58bb9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/spark33/112Memez/index.html", {
+workbox.routing.registerNavigationRoute("spark33.github.io/112Memez/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
