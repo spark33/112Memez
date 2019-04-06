@@ -8,10 +8,10 @@ import TopNav from './TopNav.js';
 class Meme extends Component {
 
 	render() {
-		if(this.props.image !== "") {
-      return <h3>yo wtf hack112 there's no meme</h3>;
+		if(this.props.image === "") {
+      return <h3>yo wtf there's no meme</h3>;
     } else {
-      return <img src={ this.props.image } />
+      return <img class="meme" src={ this.props.image } />
     }
 	}
 }

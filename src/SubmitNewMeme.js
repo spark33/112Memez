@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import { Redirect } from 'react-router'
 // import '../scss/App.scss';
 
 import TopNav from './TopNav.js';
+import Meme from './Meme.js';
 
 class Home extends Component {
 
@@ -9,22 +11,27 @@ class Home extends Component {
         super(props);
         this.state = {
         	image: '',
+        	fireRedirect: false
         };
-        this.endpoint = "https://httpbin.org/anything";
+        this.endpoint = "https://meme112.herokuapp.com/give_meme_pls";
         this.handleChange = this.handleChange.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
+        this.submitForm = this.submitForm.bind(this);
     }
 
     handleChange(e) {
 		this.setState({ [e.target.name]: e.target.value })
 	}
 
-	handleSubmit(event) {
-		alert('An image was submitted: ' + this.state.value);
-		event.preventDefault();
+	submitForm(e) {
+		e.preventDefault()
+    	this.setState({ fireRedirect: true })
 	}
 
 	render() {
+
+		const { from } = this.props.location.state || '/'
+    	const { fireRedirect } = this.state
+
 		return (
 			<div id="MemeForm">
 				<TopNav />
@@ -33,13 +40,18 @@ class Home extends Component {
 					<form 
 						method="POST" 
 						action={ this.endpoint }
+						onSubmit={this.submitForm}
 					>
-						<img src={ this.state.image } />
+						<Meme image={ this.state.image } />
 						<label>IMAGE URL</label>
 						<input type='text' onChange={ this.handleChange } name='image' value={ this.state.image } placeholder="GIMME DAT"/>
 						<input type='submit' />
 					</form>
 				</main>
+
+				{ fireRedirect && (
+		          <Redirect to={from || '/'}/>
+		        ) }
 			</div>
 		);
 	}

@@ -12,7 +12,7 @@ class Home extends Component {
         this.state = {
             image: ''
         };
-        this.endpoint = "https://httpbin.org/anything";
+        this.endpoint = "https://meme112.herokuapp.com/get_meme_pls";
     }
 
     componentDidMount() {
@@ -20,9 +20,10 @@ class Home extends Component {
       .then(res => res.json())
       .then(
         (result) => {
+          console.log(result.data.image)
           this.setState({
             isLoaded: true,
-            image: result.data.img_file
+            image: result.data.image
           });
         },
         // Note: it's important to handle errors here

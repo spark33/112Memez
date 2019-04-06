@@ -7,6 +7,14 @@ h1 {
   margin: 80px;
 }
 
+nav {
+  margin-bottom: 100px;
+}
+
+.meme {
+  width: 50%;
+}
+
 img {
   display: block;
   margin: 0 auto;
