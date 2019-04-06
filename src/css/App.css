@@ -1,6 +1,12 @@
 body {
   padding: 20px;
+  background: #295489;
+  color: white;
   font-family: 'Comic Sans MS';
+}
+
+a {
+  color: white;
 }
 
 h1 {
@@ -9,6 +15,13 @@ h1 {
 
 nav {
   margin-bottom: 100px;
+  padding-left: 10px;
+}
+
+nav > h1 {
+  margin: 0;
+  margin-right: 50px;
+  display: inline-block;
 }
 
 .meme {
@@ -26,14 +39,14 @@ label {
 }
 
 nav a {
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 #MemeForm main {
   text-align: center;
 }
 
-#MemeForm h1 {
+#MemeForm main h1 {
   font-size: 5vw;
 }
 

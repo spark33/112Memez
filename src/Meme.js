@@ -11,7 +11,7 @@ class Meme extends Component {
 		if(this.props.image === "") {
       return <h3>yo wtf there's no meme</h3>;
     } else {
-      return <img class="meme" src={ this.props.image } />
+      return <img className="meme" src={ this.props.image } />
     }
 	}
 }

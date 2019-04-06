@@ -24,7 +24,14 @@ class Home extends Component {
 
 	submitForm(e) {
 		e.preventDefault()
-    	this.setState({ fireRedirect: true })
+		const data = new FormData(e.target);
+		fetch(this.endpoint, {
+			method: 'POST',
+			headers: {
+	            "Content-Type": "application/json",
+	        },
+			body: JSON.stringify({ image: this.state.image })
+		}).then(res => this.setState({ fireRedirect: true }));
 	}
 
 	render() {

@@ -6,6 +6,7 @@ class TopNav extends Component {
   render() {
     return (
       <nav>
+        <h1>112 Memez</h1>
         <Link to={`/`} className="logo">
         	get meme
         </Link>
