@@ -1,0 +1,51 @@
+body {
+  padding: 20px;
+  font-family: 'Comic Sans MS';
+}
+
+h1 {
+  margin: 80px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+#MemeForm main {
+  text-align: center;
+}
+
+#MemeForm h1 {
+  font-size: 5vw;
+}
+
+#MemeForm form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type='file'] {
+  font-family: 'Comic Sans MS';
+}
+
+input[type='submit'] {
+  font-family: 'Comic Sans MS';
+  width: 100%;
+  margin-top: 40px;
+  background: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 2em;
+}
