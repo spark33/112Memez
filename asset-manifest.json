@@ -1,14 +1,14 @@
 {
-  "main.css": "spark33.github.io/112Memez/static/css/main.66fee183.chunk.css",
-  "main.js": "spark33.github.io/112Memez/static/js/main.c7adf310.chunk.js",
-  "main.js.map": "spark33.github.io/112Memez/static/js/main.c7adf310.chunk.js.map",
-  "runtime~main.js": "spark33.github.io/112Memez/static/js/runtime~main.8ccd7a8b.js",
-  "runtime~main.js.map": "spark33.github.io/112Memez/static/js/runtime~main.8ccd7a8b.js.map",
-  "static/js/2.cf41731c.chunk.js": "spark33.github.io/112Memez/static/js/2.cf41731c.chunk.js",
-  "static/js/2.cf41731c.chunk.js.map": "spark33.github.io/112Memez/static/js/2.cf41731c.chunk.js.map",
-  "index.html": "spark33.github.io/112Memez/index.html",
-  "precache-manifest.ce26c625ffa32d1399d1dfad44d58bb9.js": "spark33.github.io/112Memez/precache-manifest.ce26c625ffa32d1399d1dfad44d58bb9.js",
-  "service-worker.js": "spark33.github.io/112Memez/service-worker.js",
-  "static/css/main.66fee183.chunk.css.map": "spark33.github.io/112Memez/static/css/main.66fee183.chunk.css.map",
-  "static/media/logo.svg": "spark33.github.io/112Memez/static/media/logo.5d5d9eef.svg"
+  "main.css": "spark33.github.io/static/css/main.66fee183.chunk.css",
+  "main.js": "spark33.github.io/static/js/main.6626560c.chunk.js",
+  "main.js.map": "spark33.github.io/static/js/main.6626560c.chunk.js.map",
+  "runtime~main.js": "spark33.github.io/static/js/runtime~main.3ed06182.js",
+  "runtime~main.js.map": "spark33.github.io/static/js/runtime~main.3ed06182.js.map",
+  "static/js/2.cf41731c.chunk.js": "spark33.github.io/static/js/2.cf41731c.chunk.js",
+  "static/js/2.cf41731c.chunk.js.map": "spark33.github.io/static/js/2.cf41731c.chunk.js.map",
+  "index.html": "spark33.github.io/index.html",
+  "precache-manifest.1869549b78f79181bb8154156668a2c1.js": "spark33.github.io/precache-manifest.1869549b78f79181bb8154156668a2c1.js",
+  "service-worker.js": "spark33.github.io/service-worker.js",
+  "static/css/main.66fee183.chunk.css.map": "spark33.github.io/static/css/main.66fee183.chunk.css.map",
+  "static/media/logo.svg": "spark33.github.io/static/media/logo.5d5d9eef.svg"
 }
